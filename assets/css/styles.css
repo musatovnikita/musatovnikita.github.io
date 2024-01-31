@@ -85,7 +85,7 @@ img {
 }
 .card {
   position: relative;
-  width: 256px;
+  width: 306px;
   background-color: var(--black-color);
   padding: 1.25rem 2rem 3rem;
   border-radius: 1.5rem;
@@ -115,8 +115,13 @@ img {
   font-size: var(--smaller-font-size);
   font-weight: 500;
 }
+.card__cv {
+    color: var(--text-color);
+    font-size: .85rem;
+    font-weight: 500;
+}
 .card__social {
-  width: 200px;
+  width: 250px;
   background-color: var(--first-color);
   padding: 0.75rem;
   border-radius: 3rem;
@@ -150,7 +155,7 @@ img {
 .card__social-text {
   display: block;
   color: var(--black-color);
-  font-size: var(--smaller-font-size);
+  font-size: .95rem;
   font-weight: 500;
 }
 .card__social-list {
