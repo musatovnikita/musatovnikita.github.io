@@ -1,4 +1,4 @@
-<p align="center"><img src="site-screenshot.jpg" alt="Site screenshot" width="200" height="50"></a></p>
+<p align="center"><img src="site-screenshot.jpg" alt="Site screenshot" width="500" height="400"></a></p>
 
 ## About
 
