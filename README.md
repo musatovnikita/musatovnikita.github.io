@@ -1,4 +1,12 @@
+<p align="center"><img width="500" src="https://codeby.school/images/logo.png" alt="Site screenshot"></a></p>
+
+## About
+
+This is my personal website. It is designed with the help of [Bedimcode](https://github.com/bedimcode) and [Sachin Samal](https://github.com/Sacsam005). The links are in the Stay In Touch section.
+Link: (https://musatovnikita.github.io/)
+
 ## Stay In Touch
+
 Site
 - [GitHub](https://github.com/bedimcode)
 - [YouTube](http://youtube.com/@Bedimcode)
@@ -8,7 +16,9 @@ Background site
 - [GitHub](https://github.com/Sacsam005)
 - [Linkedin](https://www.linkedin.com/in/sachin-samal005/)
 - [Codepen](https://codepen.io/sacsam005/pen/BaJmaXy)
+
 ## License
+
 [MIT License](https://opensource.org/license/mit/)
 
 Copyright (c) 2023 Bedimcode
