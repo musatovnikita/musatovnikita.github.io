@@ -3,7 +3,8 @@
 ## About
 
 This is my personal website. It is designed with the help of [Bedimcode](https://github.com/bedimcode) and [Sachin Samal](https://github.com/Sacsam005). The links are in the Stay In Touch section.
-Link: (https://musatovnikita.github.io/)
+
+Link: https://musatovnikita.github.io/
 
 ## Stay In Touch
 
