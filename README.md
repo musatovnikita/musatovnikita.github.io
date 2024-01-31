@@ -1,3 +1,11 @@
+## Stay In Touch
+Site
+- [GitHub](https://github.com/bedimcode)
+- [YouTube](http://youtube.com/@Bedimcode)
+Background site
+- [GitHub](https://github.com/Sacsam005)
+- [Linkedin](https://www.linkedin.com/in/sachin-samal005/)
+- [Codepen](https://codepen.io/sacsam005/pen/BaJmaXy)
 ## License
 [MIT License](https://opensource.org/license/mit/)
 
