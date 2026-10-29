@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#050505">
+<title>Nikita Musatov</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html,body{
+  width:100%;height:100%;
+  background:#050505;
+  color:#6a6866;
+  font-family:"Inter",sans-serif;
+  font-size:16px;
+  font-weight:400;
+  line-height:1.6;
+  letter-spacing:-0.01em;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+main{
+  margin:0 auto;
+  min-height:100dvh;
+  max-width:24.5rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:1.5rem;
+  padding:1rem;
+}
+@media(min-width:640px){
+  main{max-width:34rem;padding:2rem;}
+}
+h1{
+  font-size:16px;
+  font-weight:400;
+  color:#e8e4dc;
+  letter-spacing:-0.01em;
+  line-height:1.6;
+}
+p{color:#6a6866;letter-spacing:-0.01em;}
+a{
+  color:inherit;
+  text-decoration:underline;
+  text-decoration-color:rgba(232,228,220,0.15);
+  text-decoration-thickness:1px;
+  text-underline-offset:2px;
+  transition:color 200ms,text-decoration-color 200ms;
+}
+a:hover{
+  color:rgba(232,228,220,0.75);
+  text-decoration-color:rgba(232,228,220,0.35);
+}
+@keyframes blur-fade-in{
+  0%{opacity:0;filter:blur(4px);}
+  100%{opacity:1;filter:blur(0);}
+}
+.animate-enter{
+  animation:blur-fade-in .7s cubic-bezier(.215,.61,.355,1) both;
+  animation-delay:calc(var(--enter-index,0) * .12s);
+}
+@media(prefers-reduced-motion:reduce){.animate-enter{animation:none;}}
+</style>
+</head>
+<body>
+<main>
+
+  <div>
+    <h1 class="animate-enter" style="--enter-index:0">Nikita Musatov</h1>
+    <p class="animate-enter" style="--enter-index:1">Senior Business Analyst with 5+ years turning ambiguous requirements into products that actually ship. Work across iGaming, Finance &amp; E-commerce — bridging business and tech so every feature is well-defined before a single line of code is written.</p>
+  </div>
+
+  <p class="animate-enter" style="--enter-index:2">No ambiguity. No surprises.</p>
+
+  <p class="animate-enter" style="--enter-index:3">Reach out on <a href="https://linkedin.com/in/nikita-musatov" target="_blank" rel="noopener noreferrer">LinkedIn</a> or <a href="mailto:nikitamusatov@gmail.com">email</a>. <a href="https://docs.google.com/document/d/1vgWKI4IsDy_CRTC9Mwb9agND8eZvBccadvLlS3zWAHc/edit?usp=sharing" target="_blank">CV available here</a>.</p>
+
+</main>
+</body>
+</html>
